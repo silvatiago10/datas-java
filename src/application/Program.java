@@ -13,6 +13,7 @@ public class Program {
 		SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy");
 		SimpleDateFormat sdf2 = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		SimpleDateFormat sdf3 = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+		SimpleDateFormat sdf4 = new SimpleDateFormat("dd/MM/yyyy HH");
 		
 		sdf3.setTimeZone(TimeZone.getTimeZone("GMT"));
 		
@@ -46,6 +47,14 @@ public class Program {
 		System.out.println("y1: " + sdf3.format(y1));
 		System.out.println("y2: " + sdf3.format(y2));
 		System.out.println("y3: " + sdf3.format(y3));
+		System.out.println("-------------");
+		System.out.println("x1: " + sdf4.format(x1));
+		System.out.println("x2: " + sdf4.format(x2));
+		System.out.println("x3: " + sdf4.format(x3));
+		System.out.println("x4: " + sdf4.format(x4));
+		System.out.println("y1: " + sdf4.format(y1));
+		System.out.println("y2: " + sdf4.format(y2));
+		System.out.println("y3: " + sdf4.format(y3));
 
 	}
 
